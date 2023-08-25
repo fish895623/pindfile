@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "findfile"
+version = "0.1.0"
+description = ""
+authors = ["배성훈 <dan990429@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-docx = "^0.8.11"
+openpyxl = "^3.1.2"
+pymupdf = "^1.23.1"
+flake8 = "^6.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+flake8 = "^6.1.0"
+mypy = "^1.5.1"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
